@@ -96,13 +96,18 @@ const useStyles = makeStyles((theme) => ({
     float:"right",
     height:"550px",
     marginTop:100,
+    transition: "transform .2s", /* Animation */
     '@media screen and (max-width: 1024px)': {
       width: "100%",
       height: "auto",
       marginTop:0,
-      marginBottom:50
-   } 
+      marginBottom:50,
+   } ,
+   "&:hover": {
+    transform: "scale(1.25)"
+  }
   },
+  
   visible1:{
     display:"none",
     '@media screen and (max-width: 1024px)': {
