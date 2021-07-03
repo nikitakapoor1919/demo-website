@@ -1,6 +1,8 @@
+
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Img from "../images/svgPic.svg"
+import Typography from '@material-ui/core/Typography';
 
 export default function ContentContainer() {
     const classes = useStyles();
@@ -8,8 +10,25 @@ export default function ContentContainer() {
     return (
       <div className={classes.root}>
       <div className={classes.visible1}><img src={Img} className={classes.responsive}></img></div>
-      <div className={classes.container1}> 
+      <div>
+      <Typography className={classes.heading}>
+          WHAT IS KYC ? 
+        </Typography>
+        <Typography className={classes.heading3} align="justify">
+        In answer to the question ‘what is KYC’, KYC full form is ‘Know Your Customer.’ It is a verification process that allows
+        an institution to confirm and thereby verify the authenticity of their customer.
+        </Typography>
+        <Typography className={classes.heading}>
+          WHY KYC ? 
+        </Typography>
+        <Typography className={classes.heading3} align="justify">
+        The Reserve Bank of India, the apex bank of the nation has made KYC compulsory for all banks and financial institutions in 2004. 
+        KYC is of primary importance as not 
+        only an identity proof but also a safeguard against money launderers or other criminal activities.
+        </Typography>
+        <div className={classes.container1}> 
         <iframe className={classes.responsiveIframe} src="https://react-widget-upload.netlify.app/"></iframe>
+      </div>
       </div>
       <div className={classes.visible2}><img src={Img} className={classes.responsive}></img></div>
       </div>
@@ -76,9 +95,11 @@ const useStyles = makeStyles((theme) => ({
   responsive: {
     float:"right",
     height:"550px",
+    marginTop:100,
     '@media screen and (max-width: 1024px)': {
       width: "100%",
       height: "auto",
+      marginTop:0,
       marginBottom:50
    } 
   },
@@ -98,6 +119,7 @@ const useStyles = makeStyles((theme) => ({
     position: 'relative',
     width: '100%',
     overflow: 'hidden',
+    height:100,
     paddingTop: '56.25%' /* 16:9 Aspect Ratio */
   },
   
