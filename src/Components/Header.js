@@ -22,7 +22,7 @@ export default function Header() {
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    marginBottom:30
+    marginBottom:30,
   },
   appbar: {
     color: "#6C63FF",

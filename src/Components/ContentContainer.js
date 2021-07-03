@@ -45,7 +45,8 @@ const useStyles = makeStyles((theme) => ({
       paddingLeft:15,
       paddingRight:15,
       display:"block"
-   } 
+   } ,
+   overflow:"hidden"
   },
   heading: {
       fontWeight: "bold",
