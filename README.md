@@ -31,7 +31,7 @@ https://github.com/nikitakapoor1919/react-widget-upload
 <br>
 <br>
 
-![Alt Text](https://raw.githubusercontent.com/nikitakapoor1919/Images/main/invoid.gif)
+![Alt Text](https://github.com/nikitakapoor1919/Images/blob/main/Invoid%20-%20Google%20Chrome%202021-07-03%2021-23-41.gif?raw=true)
 
 ## <strong>WEB WIDGET VS REACT COMPONENT</strong>
 <img src="https://raw.githubusercontent.com/nikitakapoor1919/Images/main/Untitled.png">
