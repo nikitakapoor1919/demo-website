@@ -1,0 +1,37 @@
+<b><h1 align=center> Demo Website </h1></b>
+
+## <strong>Problem Statement 🚩 </strong>
+You need to develop a web widget and insert it into a demo website. The web widget should ask
+the user to upload one document (eg. Aadhaar card). After Successful upload, your web widget
+must show success and close down.
+
+## <strong>Getting Started 🚀 </strong>
+### Follow the steps below to set it up locally.
+
+```
+# Clone this repository
+$ git clone https://github.com/your-username/demo-website.git
+
+# Go into the repository
+$ cd demo-website
+
+# Install dependencies
+$ npm install
+
+# Run website
+$ npm start
+```
+This should launch the website on `localhost:3000`.
+
+## <strong>Web Widget Code </strong>
+https://github.com/nikitakapoor1919/react-widget-upload
+
+## <strong>Hosted website Link 📦 </strong>
+<a href="https://demo-website-react.netlify.app/">LIVE DEMO</a>
+<br>
+<br>
+
+![Alt Text](https://im4.ezgif.com/tmp/ezgif-4-e9622221c45f.gif)
+
+## <strong>WEB WIDGET VS REACT COMPONENT</strong>
+<img src="https://raw.githubusercontent.com/nikitakapoor1919/Images/main/Untitled.png">
