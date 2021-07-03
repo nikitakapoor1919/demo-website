@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
   },
   appbar: {
     color: "#6C63FF",
-    backgroundColor: "#ffffff"
+    backgroundColor: "#F8F6F6"
   },
   responsive: {
     float:"right",
