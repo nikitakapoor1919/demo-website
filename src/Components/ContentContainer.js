@@ -125,7 +125,7 @@ const useStyles = makeStyles((theme) => ({
     position: 'relative',
     width: '100%',
     overflow: 'hidden',
-    height:100,
+    height:200,
     paddingTop: '56.25%' /* 16:9 Aspect Ratio */
   },
   
