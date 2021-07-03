@@ -1,4 +1,4 @@
-<b><h1 align=center> Demo Website </h1></b>
+<b><h1 align=center> DEMO WEBSITE [![GitHub contributors](https://img.shields.io/github/contributors/nikitakapoor1919/demo-website.svg)](https://github.com/nikitakapoor1919/demo-website/graphs/contributors/)</h1></b>
 
 ## <strong>Problem Statement 🚩 </strong>
 You need to develop a web widget and insert it into a demo website. The web widget should ask
